@@ -1,0 +1,7 @@
+:root {
+  --font-base: 'Arial', sans-serif;
+  --font-heading: 'Helvetica Neue', sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 2rem;
+  --line-height-base: 1.5;
+}

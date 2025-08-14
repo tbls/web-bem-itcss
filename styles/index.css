@@ -1,0 +1,33 @@
+/* 1-SETTINGS */
+@import url("./1-settings/colors.css");
+@import url("./1-settings/typography.css");
+
+/* 2-TOOLS */
+
+/* 3-GENERIC */
+@import url("./3-generic/reset.css");
+/* @import url("./3-generic/normalize.css"); */
+
+/* 4-ELEMENTS */
+@import url("./4-elements/base.css");
+@import url("./4-elements/headings.css");
+
+/* 5-OBJECTS */
+@import url("./5-objects/layout-container.css");
+@import url("./5-objects/grid.css");
+
+/* 6-COMPONENTS */
+@import url("./6-components/header.css");
+@import url("./6-components/nav.css");
+@import url("./6-components/hero.css");
+@import url("./6-components/button.css");
+@import url("./6-components/services.css");
+@import url("./6-components/about.css");
+@import url("./6-components/footer.css");
+
+/* 7-UTILITIES */
+@import url("./7-utilities/text.css");
+@import url("./7-utilities/spacing.css");
+
+
+

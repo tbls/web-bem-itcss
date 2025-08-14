@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web BEM + ITCSS</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__container layout-container">
+      <h1 class="header__title">Mi Web</h1>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active">
+            <a href="#" class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+      <h2 class="hero__title">Bienvenido a mi sitio</h2>
+      <p class="hero__text">Esta es una página de ejemplo que usa BEM e ITCSS. Aquí encontrarás un diseño limpio y
+        escalable.</p>
+      <a href="#" class="button button--primary">Saber más</a>
+    </section>
+
+    <section class="services layout-container u-mt-lg">
+
+      <h2 class="u-text-center">Nuestros Servicios</h2>
+
+      <div class="grid grid--3-cols u-mt-lg">
+
+        <article class="service-card">
+          <h3 class="service-card__title">Desarrollo Web</h3>
+          <p class="service-card__text">Creamos sitios web modernos y adaptables a cualquier dispositivo.</p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="service-card__title">Aplicaciones Móviles</h3>
+          <p class="service-card__text">Desarrollamos apps para Android e iOS con las últimas tecnologías.</p>
+        </article>
+
+        <article class="service-card">
+          <h3 class="service-card__title">Consultoría Tecnológica</h3>
+          <p class="service-card__text">Te ayudamos a encontrar la mejor solución para tu negocio.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about u-mt-lg">
+      <div class="about__container layout-container">
+        <h2 class="about__title u-text-center">Sobre Nosotros</h2>
+        <p class="about__text u-text-center">
+          Somos un equipo apasionado por la tecnología y el diseño, enfocados en crear
+          experiencias digitales memorables para nuestros clientes.
+        </p>
+        <a href="#" class="button button--secondary about__button">Contáctanos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer u-mt-lg">
+    <div class="layout-container">
+      <p class="footer__text">© 2025 Mi Web | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
